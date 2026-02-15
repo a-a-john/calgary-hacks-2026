@@ -1,0 +1,49 @@
+.navbar {
+  font-size: 1.8rem;
+  color: #8b1a1a;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  margin: 0;
+  padding: 1rem 2rem; /* Add horizontal padding */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; /* Changed from space-between */
+  gap: 3rem; /* Space between logo and links */
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #8b1a1a, #1a4d8b); /* Add the gradient back */
+  border-radius: 10px; /* Rounds all four corners */
+}
+
+.nav-logo {
+  flex-shrink: 0; /* Prevents logo from shrinking */
+}
+
+.nav-logo img {
+  height: 60px; /* Adjust based on your logo's size */
+  width: auto;
+  display: block;
+  border-radius: 15px; /* Rounds all four corners */
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.5rem; /* Space between each link */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  
+}
+
+.navbar a {
+  color: #f5e6d3; /* Light color for the gradient background */
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fff;
+}

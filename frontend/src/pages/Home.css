@@ -1,0 +1,78 @@
+.bg-section {
+  width: 100%;
+  /* Use min-height so it's at least the full screen, but can grow longer */
+  min-height: 100vh; 
+  
+  background-color: #f5e6d3;
+  background-position: top center; /* Start image at the top */
+  background-repeat: no-repeat;
+  
+  /* Change 'cover' to '100% auto' to prevent warping/stretching */
+  background-size: 100% auto; 
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem; /* Increased vertical padding to give it more "length" */
+
+}
+
+.welcome-text {
+  font-size: 1.8rem;
+  color: #2c1810;
+  margin-bottom: -10rem;
+  margin-top: 10rem;
+  font-weight: normal;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #2c1810;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+  font-weight: normal;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  color: #8b1a1a;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #2c1810;
+  margin-bottom: 2.5rem;
+}
+
+.cta-button {
+  background-color: #8b1a1a;
+  color: #f5e6d3;
+  padding: 0.9rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  background-color: #a61f1f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.body a {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
